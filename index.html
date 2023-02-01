@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMDB</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="form" action="/">
+        <label id="label"> OMDB </label>
+        <input id="movie" type="text" placeholder="Movie / TV">
+        <button id="button" type="submit">Search</button>
+    </form>
+
+    <form id="radio" action="">
+        <input id="all" type="radio" name="movieYear" value="all" checked>
+        <label id="yearLabel" for="all">all</label>
+
+        <input id="2022" type="radio" name="movieYear" value="2022">
+        <label id="yearLabel" for="2022">2022</label>
+
+        <input id="2021" type="radio" name="movieYear" value="2021">
+        <label id="yearLabel" for="2021">2021</label>
+
+        <input id="2020" type="radio" name="movieYear" value="2020">
+        <label id="yearLabel" for="2020">2020</label>
+
+        <input id="2019" type="radio" name="movieYear" value="2019">
+        <label id="yearLabel" for="2019">2019</label>
+
+        <input id="2018" type="radio" name="movieYear" value="2018">
+        <label id="yearLabel" for="2018">2018</label>
+
+        <input id="2017" type="radio" name="movieYear" value="2017">
+        <label id="yearLabel" for="2017">2017</label>
+
+        <input id="2016" type="radio" name="movieYear" value="2016">
+        <label id="yearLabel" for="2016">2016</label>
+    </form>
+
+    <div id="filter">
+        <button class="btn" name="button" value="movie">Movies</button>
+        <button class="btn" name="button" value="series">TV Shows</button>
+    </div>
+    
+    <div id="container">
+        
+    </div>
+<script src="omdb.js"></script>
+</body>
+</html>
